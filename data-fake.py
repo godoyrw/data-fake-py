@@ -6,10 +6,10 @@ from faker import Faker
 fk = Faker(locale='pt_BR')
 
 # Gerando os Dados
-fk.name(), fk.sentence(), fk.address(), fk.email(), fk.date(), fk.country(), fk.phone_number(), fk.random_number(digits=6)
+fk.name(), fk.sentence(), fk.address(), fk.email(), fk.date(), fk.country(), fk.phone_number(), fk.random_number(digits=3, fix_len=True)
 
 # Definindo o Total de Dados
-total = 10000
+total = 10
 
 # Organizando os Dados
 dados = {
