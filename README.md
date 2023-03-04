@@ -14,3 +14,6 @@ python3 -m pip install faker
 ```
 python3 data-fake.py
 ```
+### Resultado:
+
+![Alt text](https://raw.githubusercontent.com/godoyrw/data-fake-py/main/assets/data-fake-py.jpeg?raw=true "Data Fake PY - Data")

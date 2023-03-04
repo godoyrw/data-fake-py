@@ -31,6 +31,6 @@ dados = {
 df = pd.DataFrame(dados)
 
 # Gerando o CSV
-df.to_csv('data-fake-py.csv', index=False)
+df.to_csv('assets/data-fake-py.csv', index=False)
 
 
