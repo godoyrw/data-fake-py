@@ -21,4 +21,4 @@ python3 data-fake.py
 
 ### Faker Lib - Documentação
 
-[faker docs](https://faker.readthedocs.io/en/master//){:target="_blank" rel="noopener"}
+##### [https://faker.readthedocs.io/en/master/](https://faker.readthedocs.io/en/master/)
