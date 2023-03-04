@@ -3,10 +3,7 @@ import pandas as pd
 from faker import Faker
 
 # Instancia do Objeto
-fk = Faker(locale='pt_BR')
-
-# Gerando os Dados
-fk.name(), fk.sentence(), fk.address(), fk.email(), fk.date(), fk.country(), fk.phone_number(), fk.random_number(digits=3, fix_len=True)
+fk = Faker('pt_BR')
 
 # Definindo o Total de Dados
 total = 10
@@ -19,7 +16,13 @@ dados = {
     'E-Mail' : [
         fk.email() for i in range(total) 
     ],
+    'Telefone' : [
+        fk.cellphone_number() for i in range(total)
+    ],
     'Data de Nascimento' : [
+        fk.date() for i in range(total)
+    ],
+    'Endereço' : [
         fk.address().replace('\n', ' ') for i in range(total)
     ],
     'Texto' : [
