@@ -5,3 +5,6 @@ A biblioteca 'faker' é uma biblioteca de geração de dados não reais em Pytho
 Ela é usada para gerar dados de exemplo para testes de software, 
 preenchimento de banco de dados, 
 prototipagem de aplicativos e outros fins similares.
+
+
+pip install pandas
